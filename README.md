@@ -1,5 +1,5 @@
 # ejercicioKas
-11- Utilicé git reset --hard HEAD~1 para que retrocediese el puntero head sin guardar los cambios en el working copy.
+11- Utilicé git reset --hard HEAD virgulilla(si pongo el símbolo el README me tacha el texto) 1 para que retrocediese el puntero head sin guardar los cambios en el working copy.
 12- Usé reflog para ver el ID del commit al que hacer otro reset hard.
 13- Causó conflicto porque main es padre de styled y no deja mergearlo, absorbí styled haciendo checkout desde main.
 19- No causó conflicto pero en vez de mergearlo hice un reset --hard para que el commit creado en htmlify no se tuviera en cuenta y se quedaran las 2 ramas en el commit de Modifico poema con los cambios de styled.
